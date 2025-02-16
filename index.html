@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sheikh Aziz - Software Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <div class="hero-header">
+        <div class="wrapper">
+            <header>
+                <div class="logo">
+                    <i class="fa-solid fa">S</i>
+                    <div class="logo-text"> SHEIKH AZIZ</div>
+                </div>
+                <nav>
+                    <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="navlinks">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Resume</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="cotainer">
+                <div class="hero-pic">
+                    <img src="WhatsApp Image 2025-02-16 at 11.47.02 AM.jpeg" alt="profile picture">
+                </div>
+                <div class="hero-text">
+                    <h5>Hi I'm <span class="input">Backend Developer</span></h5>
+                    <h1>Sheikh Aziz</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, nemo.</p>
+                    <div class="btn-group">
+                        <a href="aziz.pdf" class="btn active" target="_blank">Download CV</a>
+                        <a href="https://www.instagram.com/sheikhaziz_0829?igsh=b2pocHU3cmM4Ynly" class="btn"  target="_blank">Contact</a>
+                    </div>
+                    <div class="social">
+                        <a href="https://www.facebook.com/share/18YUYj2M39/" target="_blank"><i class="fa-brand fa-facebook"></i></a>
+                        <a href="https://pk.linkedin.com/in/sheikh-aziz-609394351" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/sheikhaziz_0829?igsh=b2pocHU3cmM4Ynly" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://github.com/SheikhAziz003/Project" controls><i class="fab fa-github" target="_blank"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.0/typed.min.js"></script>
+    <script>
+        var togglebtn=document.querySelector(".togglebtn");
+        var nav=document.querySelector(".navlinks");
+        var links=document.querySelector(".navlinks li");
+        togglebtn.addEventListener("click",function(){
+            this.classList.toggle("click");
+            nav.classList.toggle("open");
+        })
+        var typed=new Typed(".input",{
+            strings:["Backend Developer" , "Web Developer"," Frontend Developer "],
+            typedSpeed:70,
+            backSpeed:55,
+            loop:true
+        })
+        
+    </script>
+</body>
+</html>

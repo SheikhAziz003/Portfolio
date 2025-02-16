@@ -215,4 +215,28 @@ nav .navlinks li a{
         padding:40px 0px;
     }
 }
+footer {
+    background: #1e1e1e;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -3px 10px rgba(0, 188, 212, 0.2);
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.footer-container p {
+    font-size: 14px;
+    text-align: center;
+}
 
